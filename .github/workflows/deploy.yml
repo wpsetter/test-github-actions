@@ -8,11 +8,10 @@ jobs:
     name: New tag
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
       - name: WordPress Plugin Deploy
         uses: wpsetter/action-wordpress-plugin-deploy@develop
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_URL: 'https://wpsetter.svn.beanstalkapp.com/test-github-actions/'
-          SLUG: test-github-actions # optional, remove if GitHub repo name matches SVN slug, including capitalization
+          SLUG: test-github-actions
