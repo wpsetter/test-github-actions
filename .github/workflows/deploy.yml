@@ -13,4 +13,5 @@ jobs:
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_URL: ${{ secrets.SVN_URL }}
           SLUG: test-github-actions
