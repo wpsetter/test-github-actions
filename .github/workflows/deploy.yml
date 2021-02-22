@@ -13,5 +13,4 @@ jobs:
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SVN_URL: https://wpsetter.svn.beanstalkapp.com/test-github-actions/
           SLUG: test-github-actions
