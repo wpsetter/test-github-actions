@@ -1,4 +1,4 @@
-mame: Plugin asset/readme update
+name: Plugin asset/readme update
 on:
   push:
     branches:
