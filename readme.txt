@@ -53,6 +53,7 @@ This is a fork (an updated clone) of [Custom Posts Per Page](https://wordpress.o
 1. An overview of the Custom Posts Per Page settings screen.
 
 == Changelog ==
-
+= 1.0.1 =
+* Added github actions
 = 1.0.0 =
 * Initial release.
