@@ -54,6 +54,6 @@ This is a fork (an updated clone) of [Custom Posts Per Page](https://wordpress.o
 
 == Changelog ==
 = 1.0.1 =
-* Added github actions
+* Added github actions for sync plugin to WordPress.org
 = 1.0.0 =
 * Initial release.
